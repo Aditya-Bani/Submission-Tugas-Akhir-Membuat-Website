@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: inline;
+}
+nav {
+  background-color: #212936;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: white;
+}
+nav a:hover {
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+  overflow: auto;
+}
+aside {
+  float: left;
+  padding-left: 12px;
+  width: 30%;
+}
+footer {
+  position:relative;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  background-color: #212936;
+}
+h2 {
+  color: #212936;
+}
+h3 {
+  color: #212936;
+}
+#content {
+  float: left;
+  width: 70%;
+}
+#content education {
+  float: left;
+  width: 100%;
+}
+.jumbotron {
+  margin: 0;
+  display:inline-block  ;
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ffff;
+  text-align: center;
+  color:#212936;
+}
+.profile header {
+  text-align: center;
+}
+.featured-image {
+  width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  object-position:center;
+}
+.profile img {
+  width: 275px;
+}
+/* social icons start */
+.socials {
+  position: relative;
+  margin-top: 0rem;
+}
+.socials .social-icons {
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.socials .social-icons li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.social-icons a {
+  font-size: 2rem;
+  display:contents;
+  line-height: 44px;
+  color: #212936;
+  width: 100px;
+  height: auto;
+  margin-right: 8px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #ffffff;
+}
+.social-icons a.linkedin:hover {
+}
+.social-icons a.github:hover {
+}
+.social-icons a.instagram:hover {
+}
+.social-icons a.email:hover {
+}
+.social-icons a.dev:hover {
+  background-color: #070707;
+}
+/* social icons end */
+
+.card {
+  text-align: justify;
+  box-shadow: 0 2px 10px 2px #212936;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
